@@ -28,8 +28,8 @@ urlpatterns = [
     path('deleteidea/<int:idea_id>', views.deleteidea),
     path('solicitud/<int:idea_id>', views.invitation),
     path('listinvitation/', views.listinvitation),    
-    path('updateinvitation/<int:invitation_id>', .views.updateinvitation),
+    path('updateinvitation/<int:invitation_id>', views.updateinvitation),
     path('listfollowers/', views.listfollowers),
     path('listfollowing/', views.listfollowing),
     path('deleteinvitation/', views.deleteinvitation),
-]|
+]
